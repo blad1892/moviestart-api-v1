@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: moviestart-api
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+vimeus:
+  base-url: https://vimeus.com/api
+  api-key: ak_mdsJq6FoTvMwAi4d3resgLKqki6R2iEU
+
+
+server:
+  address: "0.0.0.0"
+  port: 8015
+
+
